@@ -10,7 +10,13 @@ Created a tag and puhed into the DockerHub
 
 <img width="550" alt="Screenshot 2025-05-13 113750 (2)" src="https://github.com/user-attachments/assets/b8e0615a-fbcf-45ae-91d0-e77fc35c6553" />
 
-Opened in anthoer friend's PC and pulled image from my DockerHub , build and Run that image in my friend's PC.
+Open in another PC and pull image from my DockerHub , build and Run that image in another PC.
+
+**Commands for the above**
+
+docker login
+docker pull rithwik2003/webimage
+docker run -d -p 8080:80 rithwik2003/webimage
 
 This is the final website
 ![image](https://github.com/user-attachments/assets/c2a61665-b01f-4639-8377-060fba09825e)
