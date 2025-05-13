@@ -15,7 +15,9 @@ Open in another PC and pull image from my DockerHub , build and Run that image i
 **Commands for the above**
 
 docker login
+
 docker pull rithwik2003/webimage
+
 docker run -d -p 8080:80 rithwik2003/webimage
 
 This is the final website
